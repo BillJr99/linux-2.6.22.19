@@ -344,7 +344,7 @@ ENTRY(copy_user_generic_string)
 11:	pop %rax
 7:	ret
 	CFI_ENDPROC
-END(copy_user_generic_string)
+END(copy_user_generic_c)
 
 	.section __ex_table,"a"
 	.quad 1b,3b
